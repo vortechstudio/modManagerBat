@@ -94,22 +94,22 @@ echo. >> "%log_file%"
 
 :: Définir l'arborescence de base comme un tableau
 set folders[0]=res\
-set folders[0]=res\audio\effects
-set folders[0]=res\config\multiple_unit
-set folders[0]=res\config\sound_set
-set folders[0]=res\config\ui
-set folders[0]=res\construction
-set folders[0]=res\construction\asset
-set folders[0]=res\models\animations
-set folders[0]=res\models\materials
-set folders[0]=res\models\mesh
-set folders[0]=res\models\model
-set folders[0]=res\scripts
-set folders[0]=res\textures
-set folders[0]=res\textures\models
-set folders[0]=res\textures\ui
-set folders[0]=res\textures\ui\construction\asset
-set folders[0]=res\textures\ui\construction\categories
+set folders[1]=res\audio\effects
+set folders[2]=res\config\multiple_unit
+set folders[3]=res\config\sound_set
+set folders[4]=res\config\ui
+set folders[5]=res\construction
+set folders[6]=res\construction\asset
+set folders[7]=res\models\animations
+set folders[8]=res\models\materials
+set folders[9]=res\models\mesh
+set folders[10]=res\models\model
+set folders[11]=res\scripts
+set folders[12]=res\textures
+set folders[13]=res\textures\models
+set folders[14]=res\textures\ui
+set folders[15]=res\textures\ui\construction\asset
+set folders[16]=res\textures\ui\construction\categories
 
 :: Création de l'arborescence de base en parcourant le tableau
 if not exist "%mod_dir%" (
